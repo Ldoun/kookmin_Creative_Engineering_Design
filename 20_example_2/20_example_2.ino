@@ -40,7 +40,7 @@ void loop() {
 
 float volt_to_distance(int a_value)
 {
-  return 70.1 + -0.501*a_value + 1.31E-03*a_value*a_value + -1.17E-06*a_value*a_value*a_value; // Replace this with the equation obtained from nonlinear regression analysis
+  return 52.3 + -0.297 * a_value + 6.33E-04 * a_value * a_value + -4.9E-07 * a_value * a_value * a_value; // Replace this with the equation obtained from nonlinear regression analysis
 }
 
 unsigned int ir_sensor_filtered(unsigned int n, float position)
